@@ -12,7 +12,7 @@ class MascotaController extends Controller
      */
     public function index()
     {
-        //
+        echo "Index de mascotas";
     }
 
     /**
