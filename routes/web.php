@@ -20,6 +20,8 @@ use App\Http\Controllers\MascotaController;
 
 Route::get("/", [MascotaController::class, "index"]);
 
+Route::resource('mascotas', MascotaController::class);
+
 Route::get('/prueba', function () {
     echo "Ruta de prueba";
 });
